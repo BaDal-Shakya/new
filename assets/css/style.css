@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    font-family: weiss 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.landingmain{
+    background-image: url("../img/logo.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: 10vw 10vh;
+}
+.landingcontent{
+    background-color: rgba(0,0,0,0.9);
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+}
+.logodiv img{
+    width:150px;
+    position: absolute;
+}
+.menudiv{
+    color: #015095;
+    float: right;
+    font-size: 2.3vw;
+    margin-top: 40px;
+    margin-right: 20px;
+    
+}
+.menudiv .menuitem{
+    float: left;
+    margin-right:30px;
+    display: block;
+    width:230px;
+    text-align: center;  
+}
+    .menuitem{
+    cursor: pointer; 
+
+}
+.menuitem:hover{
+    color: #e12428;
+    text-shadow: 1px 1px 40px white;
+}
+.landmain{
+    color:white;
+    text-align: center;
+    padding-top: 35vh;
+}
+.landmain .welcome1{
+    font-size: 6vw;
+    color: #e12428;
+    text-shadow: 1px 1px 50px white;
+
+
+}
+.landmain .welcome2{
+    font-size: 6vw;
+    color: #015095;
+    text-shadow: 1px 1px 50px white;
+
+}
+.landmain .search input{
+    width: 25vw;
+    height: 5vh;
+    outline:none;
+    border-radius: 20vw;
+    padding-left: 2vw;
+    border-color: #e12428;
+}
+.landmain .search input:focus{
+    box-shadow: 0 0 50px 5px white ;
+}
+.landmain div{
+    margin-bottom: 15px;
+}
+
+.landmain .text{
+    font-size: 2vw;
+    color: white ;
+}
