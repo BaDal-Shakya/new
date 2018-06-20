@@ -9,7 +9,7 @@ body{
     background-size: 10vw 10vh;
 }
 .landingcontent{
-    background-color: rgba(0,0,0,0.9);
+    background-color: rgba(160, 151, 151, 0.9);
     height: 100%;
     width: 100%;
     background-size: 100% 100%;
@@ -24,6 +24,7 @@ body{
     font-size: 2.3vw;
     margin-top: 40px;
     margin-right: 20px;
+  
     
 }
 .menudiv .menuitem{
@@ -32,6 +33,7 @@ body{
     display: block;
     width:230px;
     text-align: center;  
+
 }
     .menuitem{
     cursor: pointer; 
