@@ -23,9 +23,7 @@ body{
     float: right;
     font-size: 2.3vw;
     margin-top: 40px;
-    margin-right: 20px;
-  
-    
+    margin-right: 20px;   
 }
 .menudiv .menuitem{
     float: left;
@@ -83,4 +81,17 @@ body{
 .membersitem{
     color:#015095;
     padding:5px 0;
+}
+#menudiv div{
+    display: inline-block;
+    height: 40px;
+    border: solid #015095;
+}
+#menudiv div:hover{
+    border: solid #e12428;
+    box-shadow: 0 0 50px 5px whitesmoke;
+}
+#members{
+    padding-right: 5px;
+    margin-left: 0;
 }
